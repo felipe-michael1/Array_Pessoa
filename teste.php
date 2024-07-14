@@ -19,7 +19,7 @@
                    )
                );
     
-    	$resultado_final = json.encode($array_pessoa);
+    	$resultado_final = json_encode($array_pessoa);
     	return $resultado_final;
  }
 
